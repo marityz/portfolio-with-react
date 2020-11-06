@@ -1,7 +1,18 @@
 {
-  "name": "calorie-zen",
+  "name": "test-react",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marityz/work-with-react.git"
+  },
+  "author": "Avinkina Marina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marityz/work-with-react.git/issues"
+  },
+  "homepage": "https://github.com/marityz/work-with-react.git",
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
