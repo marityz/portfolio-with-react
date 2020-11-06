@@ -1,0 +1,10 @@
+.banner__title{
+    color: #E8E8E8;
+    font-family: MyWebFont, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    width: 61%;
+    line-height: 1.2em;
+    font-size: 4em;
+    align-self: center;
+}

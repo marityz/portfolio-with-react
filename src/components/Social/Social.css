@@ -1,0 +1,12 @@
+@import url(__icon/social__icon.css);
+ul li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.social{
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+}

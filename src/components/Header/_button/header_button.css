@@ -1,0 +1,28 @@
+.header_button{
+    background-color: #181b1e;
+    color: #E8E8E8;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    border: none;
+}
+
+@media screen and (max-width: 478px) {
+    .header_button{
+       display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header_button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header_button{
+        font-size: 0.9em;
+        margin: auto;
+    }
+
+}
