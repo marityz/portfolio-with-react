@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/marityz/work-with-react/static/css/main.eb7d136d.chunk.css",
-    "main.js": "/marityz/work-with-react/static/js/main.03a78d50.chunk.js",
-    "main.js.map": "/marityz/work-with-react/static/js/main.03a78d50.chunk.js.map",
-    "runtime-main.js": "/marityz/work-with-react/static/js/runtime-main.cc7b155d.js",
-    "runtime-main.js.map": "/marityz/work-with-react/static/js/runtime-main.cc7b155d.js.map",
-    "static/js/2.d9e2863b.chunk.js": "/marityz/work-with-react/static/js/2.d9e2863b.chunk.js",
-    "static/js/2.d9e2863b.chunk.js.map": "/marityz/work-with-react/static/js/2.d9e2863b.chunk.js.map",
-    "static/js/3.3d755631.chunk.js": "/marityz/work-with-react/static/js/3.3d755631.chunk.js",
-    "static/js/3.3d755631.chunk.js.map": "/marityz/work-with-react/static/js/3.3d755631.chunk.js.map",
+    "main.css": "/marityz/work-with-react/static/css/main.bcb07775.chunk.css",
+    "main.js": "/marityz/work-with-react/static/js/main.bc691f70.chunk.js",
+    "main.js.map": "/marityz/work-with-react/static/js/main.bc691f70.chunk.js.map",
+    "runtime-main.js": "/marityz/work-with-react/static/js/runtime-main.a5739d96.js",
+    "runtime-main.js.map": "/marityz/work-with-react/static/js/runtime-main.a5739d96.js.map",
+    "static/css/2.2e412779.chunk.css": "/marityz/work-with-react/static/css/2.2e412779.chunk.css",
+    "static/js/2.46b002f6.chunk.js": "/marityz/work-with-react/static/js/2.46b002f6.chunk.js",
+    "static/js/2.46b002f6.chunk.js.map": "/marityz/work-with-react/static/js/2.46b002f6.chunk.js.map",
+    "static/js/3.9d07b8e2.chunk.js": "/marityz/work-with-react/static/js/3.9d07b8e2.chunk.js",
+    "static/js/3.9d07b8e2.chunk.js.map": "/marityz/work-with-react/static/js/3.9d07b8e2.chunk.js.map",
     "index.html": "/marityz/work-with-react/index.html",
-    "static/css/main.eb7d136d.chunk.css.map": "/marityz/work-with-react/static/css/main.eb7d136d.chunk.css.map",
-    "static/js/2.d9e2863b.chunk.js.LICENSE.txt": "/marityz/work-with-react/static/js/2.d9e2863b.chunk.js.LICENSE.txt",
+    "static/css/2.2e412779.chunk.css.map": "/marityz/work-with-react/static/css/2.2e412779.chunk.css.map",
+    "static/css/main.bcb07775.chunk.css.map": "/marityz/work-with-react/static/css/main.bcb07775.chunk.css.map",
+    "static/js/2.46b002f6.chunk.js.LICENSE.txt": "/marityz/work-with-react/static/js/2.46b002f6.chunk.js.LICENSE.txt",
     "static/media/Banner.css": "/marityz/work-with-react/static/media/banner-image.495e9785.jpg",
+    "static/media/close-popup.a1887112.svg": "/marityz/work-with-react/static/media/close-popup.a1887112.svg",
     "static/media/font-awesome.css": "/marityz/work-with-react/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/pig.38b7bf82.svg": "/marityz/work-with-react/static/media/pig.38b7bf82.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc7b155d.js",
-    "static/js/2.d9e2863b.chunk.js",
-    "static/css/main.eb7d136d.chunk.css",
-    "static/js/main.03a78d50.chunk.js"
+    "static/js/runtime-main.a5739d96.js",
+    "static/css/2.2e412779.chunk.css",
+    "static/js/2.46b002f6.chunk.js",
+    "static/css/main.bcb07775.chunk.css",
+    "static/js/main.bc691f70.chunk.js"
   ]
 }
