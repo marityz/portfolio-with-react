@@ -1,6 +1,7 @@
 import React from 'react';
 import './Work.css';
 import PopupWork from "../PopupWork/PopupWork";
+import Popup from "../Popup/Popup";
 
 class Work extends React.Component {
     constructor(props) {
@@ -13,7 +14,6 @@ class Work extends React.Component {
 
     openSlider = () => {
         this.setState({isPopup: !this.state.isPopup});
-        console.log(this.state.isPopup)
     };
 
     togglePopup = (isArg) => {
@@ -25,7 +25,8 @@ class Work extends React.Component {
             <>
                 <div className={`work__example work${this.props.work.id}`}
                      style={{backgroundImage: `url(${this.props.work.img})`}} onClick={this.openSlider}/>
-                  {this.state.isPopup && <PopupWork href = {this.props.work} open = {this.togglePopup} />}
+                {this.state.isPopup && <Popup open={this.togglePopup} content={<PopupWork href={this.props.work}
+                />} style={'work__popup popup__content'}/>}
             </>
         )
 

@@ -1,37 +1,59 @@
-import React  from 'react';
+import React from 'react';
 import "./PopupWork.css"
-import imgClose from "../../image/close-popup.svg";
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 
-
-class PopupWork extends React.Component{
+class PopupWork extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             isOpen: true,
-        }
+        };
 
+
+        console.log(this.props)
 
     }
 
     handlerClick = () => {
         this.setState({isOpen: false});
         this.props.open(false);
+
     };
 
 
-
     render() {
-        if(!this.state.isOpen){
+        const style = {
+            popupImg: {
+                backgroundImage: `url(${this.props.href.img})`,
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center'
+
+            },
+            popupLink: {
+                backgroundColor: '#f6f6f6',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center'
+            }
+
+        };
+        if (!this.state.isOpen) {
             return ""
         }
-        return(
-            <div className="popup popup_is-opened">
-                <div className="popup__content popup_work" style={{backgroundImage: `url(${this.props.href.img})`}} >
-                    <img src={imgClose} alt="кнопка закрытия"
-                         className="popup__close" onClick={this.handlerClick}/>
+        return (
+
+
+            <AwesomeSlider>
+                <div className="popup__content" style={style.popupImg}/>
+                <div className="" style={style.popupLink}>
+                    <a href={this.props.href.link} target="_blank">Ссылка на работу</a>
+                    <p>Описание работы</p>
                 </div>
-            </div>
+            </AwesomeSlider>
+
         )
     }
 }

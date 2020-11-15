@@ -28,6 +28,10 @@
     align-items: center;
     justify-content: center;
     display: none;
+
+}
+.popup:focus{
+    outline: #2f71e5;
 }
 
 .lds-ellipsis {

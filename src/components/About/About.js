@@ -33,7 +33,7 @@ class About extends React.Component{
                     Ipsum passages, and more
                     recently with desktop publishing software like Aldus PageMaker including versions of Lorem
                     Ipsum.</p>
-                <Scroll img = {scroll} class={'scroll about_scroll'}/>
+                <Scroll img = {scroll} class={'scroll about_scroll'} href = {'work'}/>
             </div>
             </section>
         )

@@ -1,3 +1,6 @@
 .work_scroll{
+    display:inline-block;
     align-self: center;
+    border: #2f71e5 solid 1px;
+    margin: 0 auto 0px auto;
 }

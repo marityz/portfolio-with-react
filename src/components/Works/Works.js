@@ -23,6 +23,7 @@ class Works extends React.Component{
                         return  <Work work = {work} key = {work.id}/>
                     })}
                 </div>
+
             </section>
         )
     }

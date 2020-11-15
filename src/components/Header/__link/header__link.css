@@ -12,10 +12,7 @@
 
 
 
-.header__link:hover{
-    border-bottom: #FF69B4 solid 5px;
-    transition-duration: .2s;
-}
+
 
 
 @media screen and (max-width: 478px) {

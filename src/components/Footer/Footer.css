@@ -4,17 +4,15 @@
 
 .footer{
     background-color: #181b1e;
-    max-height: 180px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+     position: relative;
 
 
 }
 
 .footer__container{
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin: 0 40px 0 40px;
+    max-height: 180px;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
 }

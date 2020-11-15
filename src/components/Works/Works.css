@@ -8,10 +8,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #f6f6f6;
     height: 100vh;
     max-height: 1280px;
     min-height: 600px;
-    border: #57ff35 solid 1px;
 
 }

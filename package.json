@@ -1,7 +1,7 @@
 {
   "name": "test-react",
   "version": "0.1.0",
-  "homepage": "https://github.com/marityz/work-with-react",
+  "homepage": "https://marityz.github.io/work-with-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
@@ -10,14 +10,16 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-awesome-slider": "^4.1.0",
+    "react-click-outside": "^3.0.1",
     "react-dom": "^17.0.1",
     "react-id-swiper": "^4.0.0",
     "react-scripts": "4.0.0",
+    "react-scroll": "^1.8.1",
     "swiper": "^6.3.5",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

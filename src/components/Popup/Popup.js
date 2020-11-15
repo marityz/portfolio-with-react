@@ -1,10 +1,11 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import './Popup.css';
 import imgClose from '../../image/close-popup.svg';
 
 class Popup extends React.Component {
     constructor(props) {
         super(props);
+        this.myRef = React.createRef();
         this.state = {
             isOpen: true,
             setQuite: '',
@@ -14,47 +15,48 @@ class Popup extends React.Component {
     handlerClick = () => {
         this.setState({isOpen: !this.state.isOpen});
         this.props.open(false);
+
+
     };
 
+    componentDidMount = () => {
+        if (this.state.isOpen) {
+            document.addEventListener('click', this.handleClickOutside, true);
+            document.addEventListener('keydown', this.handlerKayEsc, true);
 
-
-
-
-    getQuite = () => {
-        return fetch('https://api.kanye.rest', {
-            method: "GET",
-        })
-            .then((res) => {
-                if (res.ok) {
-                    return res.json()
-                }
-
-            })
-            .then((res) => {
-                this.setState({setQuite: res.quote})
-            })
-    };
-
-
-    componentDidMount() {
-        if(this.state.isOpen){
-           this.getQuite();
         }
-    }
+    };
+
+
+    componentWillUnmount = () => {
+        document.removeEventListener('click', this.handleClickOutside, true);
+    };
+
+
+    handleClickOutside = (e) => {
+        if (!this.myRef.current.contains(e.target)) {
+            this.handlerClick();
+        }
+
+    };
+
+    handlerKayEsc = (e) => {
+        if (e.keyCode === 27) {
+            this.handlerClick();
+        }
+    };
+
 
     render() {
-        if(!this.state.isOpen){
-            return null
+        if (!this.state.isOpen) {
+            return ""
         }
         return (
             <div className="popup popup_is-opened">
-                <div className="popup__content popup__content_margin">
+                <div ref={this.myRef} className={this.props.style}>
                     <img src={imgClose} alt="кнопка закрытия"
                          className="popup__close" onClick={this.handlerClick}/>
-                    <h1 className="popup__title">Kanye West quote:</h1>
-                    <p>{ this.state.setQuite}</p>
-                    <button className="button popup__button popup__button_valid" name="button" onClick={this.getQuite}>Another
-                </button>
+                    {this.props.content}
                 </div>
             </div>
         )

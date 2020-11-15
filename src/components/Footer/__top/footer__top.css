@@ -1,5 +1,6 @@
 .footer__top{
-    margin: -35px auto 0 auto;
-    z-index: 2;
+    position: absolute;
+    margin: auto;
 
+    top: -37px;
 }
