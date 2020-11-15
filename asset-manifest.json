@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/work-with-react/static/css/main.c2128930.chunk.css",
-    "main.js": "/work-with-react/static/js/main.b78c60c9.chunk.js",
-    "main.js.map": "/work-with-react/static/js/main.b78c60c9.chunk.js.map",
+    "main.css": "/work-with-react/static/css/main.64964e15.chunk.css",
+    "main.js": "/work-with-react/static/js/main.2ff51c4b.chunk.js",
+    "main.js.map": "/work-with-react/static/js/main.2ff51c4b.chunk.js.map",
     "runtime-main.js": "/work-with-react/static/js/runtime-main.fdbc0104.js",
     "runtime-main.js.map": "/work-with-react/static/js/runtime-main.fdbc0104.js.map",
     "static/css/2.2e412779.chunk.css": "/work-with-react/static/css/2.2e412779.chunk.css",
-    "static/js/2.0c952ea1.chunk.js": "/work-with-react/static/js/2.0c952ea1.chunk.js",
-    "static/js/2.0c952ea1.chunk.js.map": "/work-with-react/static/js/2.0c952ea1.chunk.js.map",
+    "static/js/2.368fa49a.chunk.js": "/work-with-react/static/js/2.368fa49a.chunk.js",
+    "static/js/2.368fa49a.chunk.js.map": "/work-with-react/static/js/2.368fa49a.chunk.js.map",
     "static/js/3.aeb61594.chunk.js": "/work-with-react/static/js/3.aeb61594.chunk.js",
     "static/js/3.aeb61594.chunk.js.map": "/work-with-react/static/js/3.aeb61594.chunk.js.map",
     "index.html": "/work-with-react/index.html",
     "static/css/2.2e412779.chunk.css.map": "/work-with-react/static/css/2.2e412779.chunk.css.map",
-    "static/css/main.c2128930.chunk.css.map": "/work-with-react/static/css/main.c2128930.chunk.css.map",
-    "static/js/2.0c952ea1.chunk.js.LICENSE.txt": "/work-with-react/static/js/2.0c952ea1.chunk.js.LICENSE.txt",
+    "static/css/main.64964e15.chunk.css.map": "/work-with-react/static/css/main.64964e15.chunk.css.map",
+    "static/js/2.368fa49a.chunk.js.LICENSE.txt": "/work-with-react/static/js/2.368fa49a.chunk.js.LICENSE.txt",
     "static/media/Banner.css": "/work-with-react/static/media/banner-image.495e9785.jpg",
     "static/media/close-popup.a1887112.svg": "/work-with-react/static/media/close-popup.a1887112.svg",
     "static/media/font-awesome.css": "/work-with-react/static/media/fontawesome-webfont.f691f37e.woff",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.fdbc0104.js",
     "static/css/2.2e412779.chunk.css",
-    "static/js/2.0c952ea1.chunk.js",
-    "static/css/main.c2128930.chunk.css",
-    "static/js/main.b78c60c9.chunk.js"
+    "static/js/2.368fa49a.chunk.js",
+    "static/css/main.64964e15.chunk.css",
+    "static/js/main.2ff51c4b.chunk.js"
   ]
 }
