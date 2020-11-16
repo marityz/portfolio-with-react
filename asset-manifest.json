@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/work-with-react/static/css/main.d6156ba5.chunk.css",
-    "main.js": "/work-with-react/static/js/main.bb04f950.chunk.js",
-    "main.js.map": "/work-with-react/static/js/main.bb04f950.chunk.js.map",
+    "main.css": "/work-with-react/static/css/main.2972f369.chunk.css",
+    "main.js": "/work-with-react/static/js/main.c8ee030d.chunk.js",
+    "main.js.map": "/work-with-react/static/js/main.c8ee030d.chunk.js.map",
     "runtime-main.js": "/work-with-react/static/js/runtime-main.92dd1228.js",
     "runtime-main.js.map": "/work-with-react/static/js/runtime-main.92dd1228.js.map",
     "static/css/2.2e412779.chunk.css": "/work-with-react/static/css/2.2e412779.chunk.css",
@@ -12,19 +12,22 @@
     "static/js/3.afcbac04.chunk.js.map": "/work-with-react/static/js/3.afcbac04.chunk.js.map",
     "index.html": "/work-with-react/index.html",
     "static/css/2.2e412779.chunk.css.map": "/work-with-react/static/css/2.2e412779.chunk.css.map",
-    "static/css/main.d6156ba5.chunk.css.map": "/work-with-react/static/css/main.d6156ba5.chunk.css.map",
+    "static/css/main.2972f369.chunk.css.map": "/work-with-react/static/css/main.2972f369.chunk.css.map",
     "static/js/2.85f0f608.chunk.js.LICENSE.txt": "/work-with-react/static/js/2.85f0f608.chunk.js.LICENSE.txt",
     "static/media/Banner.css": "/work-with-react/static/media/banner-image.495e9785.jpg",
     "static/media/close-popup.a1887112.svg": "/work-with-react/static/media/close-popup.a1887112.svg",
     "static/media/font-awesome.css": "/work-with-react/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/img-work1.18ca6a4c.png": "/work-with-react/static/media/img-work1.18ca6a4c.png",
-    "static/media/pig.38b7bf82.svg": "/work-with-react/static/media/pig.38b7bf82.svg"
+    "static/media/pig.38b7bf82.svg": "/work-with-react/static/media/pig.38b7bf82.svg",
+    "static/media/screen-project-mesto.5c743e50.jpg": "/work-with-react/static/media/screen-project-mesto.5c743e50.jpg",
+    "static/media/screen-reg-exp.d716f6c8.png": "/work-with-react/static/media/screen-reg-exp.d716f6c8.png",
+    "static/media/screen-work-news.99048b2d.png": "/work-with-react/static/media/screen-work-news.99048b2d.png",
+    "static/media/screen-work-react.059203e7.png": "/work-with-react/static/media/screen-work-react.059203e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.92dd1228.js",
     "static/css/2.2e412779.chunk.css",
     "static/js/2.85f0f608.chunk.js",
-    "static/css/main.d6156ba5.chunk.css",
-    "static/js/main.bb04f950.chunk.js"
+    "static/css/main.2972f369.chunk.css",
+    "static/js/main.c8ee030d.chunk.js"
   ]
 }
