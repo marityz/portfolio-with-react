@@ -27,7 +27,7 @@ class PopupWork extends React.Component {
         const style = {
             popupImg: {
                 backgroundImage: `url(${this.props.href.img})`,
-                backgroundSize: 'cover',
+                backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center'
 
@@ -46,11 +46,12 @@ class PopupWork extends React.Component {
         return (
 
 
-            <AwesomeSlider>
+            <AwesomeSlider fillParent = "true" mobileTouch = "true">
                 <div className="popup__content" style={style.popupImg}/>
-                <div className="" style={style.popupLink}>
-                    <a href={this.props.href.link} target="_blank">Ссылка на работу</a>
-                    <p>Описание работы</p>
+                <div className="work-slide" style={style.popupLink}>
+                    <h3 className='work__title'>{this.props.href.title}</h3>
+                    <p className='work__text'>{this.props.href.text}</p>
+                    <a href={this.props.href.link} target="_blank" className='work__link'>{this.props.href.linktext}</a>
                 </div>
             </AwesomeSlider>
 

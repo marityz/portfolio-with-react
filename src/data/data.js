@@ -1,25 +1,42 @@
-import imgWork1 from '../image/img-work1.png';
+import imgWork1 from '../image/screen-work-news.png';
+import imgWorkMesto from '../image/screen-project-mesto.jpg'
+import imgWork4 from '../image/screen-reg-exp.png';
+import imgWorkReact from '../image/screen-work-react.png'
 
 const works = [
     {
         id: 1,
         img: imgWork1,
-        link: "https://avatars.mds.yandex.net/get-zen_doc/1900011/pub_5e247044fc69ab00adcdb2d1_5e24708706cc4600ae7efcf2/scale_1200"
+        link: "https://github.com/marityz/news-explorer-frontend",
+        linktext: "Ссылка на Github",
+        title: "Дипломная работа",
+        text: 'Cервис, в котором можно найти новости по запросу и сохранить в личном кабинете, после авторизации.' +
+            ' Реализован фронтенд на чистом JS, CSS организован по методу БЭМ.'
     },
     {
         id: 2,
-        img: "https://on-desktop.com/wps/Nature___Rivers_and_lakes_Turquoise_lake_in_the_mountains_083623_.jpg",
-        link: 'https://aloha-plus.ru/wp-content/uploads/2019/03/kot-moment-05.jpg'
+        img: imgWorkMesto,
+        link: 'https://github.com/marityz/work-with-nodejs/blob/master/package.json',
+        linktext: "Ссылка на Github",
+        title: "Учебная работа для изучения JS",
+        text: 'Данный проект реализован в целях изучения JS'
     },
     {
         id: 3,
-        img: "https://demotivation.ru/wp-content/uploads/2020/01/Canada_Parks_Lake_Mountains_Forests_Scenery_Rocky_567540_3840x2400-scaled.jpg",
-        link: 'https://3.404content.com/1/BB/04/1650625639303611863/fullsize.jpg'
+        img: imgWorkReact,
+        link: 'https://github.com/marityz/work-with-react',
+        linktext: "Ссылка на Github",
+        title: "Проект для изучения библиотеки React",
+        text: 'Для отрисовки html используется JSX, реализованы компоненты на классах, задействованы сторонние библиотеки, например, для слайдера '
     },
     {
         id: 4,
-        img: "https://www.sunhome.ru/i/wallpapers/244/vozvraschenie-navsegda.orig.jpg",
-        link: 'https://shutniki.club/wp-content/uploads/2020/01/Smeshnye_koshki__koty_i_kotyata_77_20012015-1024x768.jpg'
+        img: imgWork4,
+        link: 'https://github.com/marityz/work-with-regExp',
+        linktext: "Ссылка на Github",
+        title: "Учебная работа с регулярными выражениями",
+        text: 'Составлены регулярные выражения для валидации полей:  name, tel, email, website для изучения логики пострения выражений'
+
     }
 ];
 export default works;

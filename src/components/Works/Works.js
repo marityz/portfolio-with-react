@@ -17,7 +17,7 @@ class Works extends React.Component{
     render() {
         return(
             <section className="work" id="work">
-                <h3 className="work__title">WORK</h3>
+                <h3 className="works__title">WORK</h3>
                 <div className="work__container">
                     {this.props.works.map((work)=>{
                         return  <Work work = {work} key = {work.id}/>

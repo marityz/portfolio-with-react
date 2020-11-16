@@ -15,7 +15,7 @@ class Banner extends React.Component{
         return(
             <section className="banner">
                 <div className= "banner__content">
-                <h1 className="banner__title">A multi-talented freelance web full-stack developer</h1>
+                <h1 className="banner__title">A multi-talented web full-stack developer</h1>
 
                 <Scroll img = {scrollimg} class = {'scroll banner_scroll'} href = {'about'}/>
                 </div>

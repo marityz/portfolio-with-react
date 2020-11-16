@@ -5,13 +5,14 @@ import Works from "./components/Works/Works";
 import Footer from "./components/Footer/Footer";
 import Banner from "./components/Banner/Banner";
 import  data from "../src/data/data";
+import textAbout from "../src/data/textAbout";
 
 function App() {
     return (
         <>
             <Header/>
             <Banner/>
-            <About/>
+            <About text = {textAbout}/>
             <Works works = {data}/>
             <Footer/>
 

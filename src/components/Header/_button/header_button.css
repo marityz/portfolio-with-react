@@ -7,6 +7,9 @@
     border: none;
 }
 
+.header_button:hover{
+    cursor: pointer;
+}
 @media screen and (max-width: 478px) {
     .header_button{
        display: none;

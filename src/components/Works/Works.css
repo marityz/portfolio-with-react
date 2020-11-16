@@ -15,3 +15,9 @@
     min-height: 600px;
 
 }
+
+@media screen and (max-width: 700px){
+    .work{
+        height: 100vh;
+    }
+}
