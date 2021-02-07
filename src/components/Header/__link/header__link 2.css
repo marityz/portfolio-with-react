@@ -1,0 +1,44 @@
+.header__link {
+    font-family: MyWebFont, sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #E8E8E8;
+    height: 100%;
+    margin-right: 30px;
+    padding: 20px 0 20px 0;
+
+}
+
+
+
+
+.header__link:hover{
+    border-bottom: #FF69B4 solid 5px;
+    transition-duration: .2s;
+}
+
+
+@media screen and (max-width: 478px) {
+    .header__link{
+        font-size: 0.6em;
+        justify-content: space-between;
+        margin-right: 10px;
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__link{
+
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header__link {
+        font-size: 0.9em;
+
+    }
+}

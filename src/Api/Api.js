@@ -2,8 +2,8 @@ import React from 'react';
 
 
 class Api extends React.Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
     }
 
 
