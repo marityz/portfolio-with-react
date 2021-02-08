@@ -12,7 +12,6 @@ class PopupWork extends React.Component {
         };
 
 
-        console.log(this.props)
 
     }
 
@@ -51,7 +50,14 @@ class PopupWork extends React.Component {
                 <div className="work-slide" style={style.popupLink}>
                     <h3 className='work__title'>{this.props.href.title}</h3>
                     <p className='work__text'>{this.props.href.text}</p>
-                    <a href={this.props.href.link} target="_blank" className='work__link'>{this.props.href.linktext}</a>
+                    <div className='work-container__link'>
+                    <a href={this.props.href.linkGit} target="_blank" className='work__link fa fa-2x fa-github' aria-hidden="true"> </a>
+                        {this.props.href.linkSite ?
+                            <a href={this.props.href.linkSite} target="_blank" className='work__link'>{this.props.href.linktext}</a>:
+                            ''
+                        }
+
+                    </div>
                 </div>
             </AwesomeSlider>
 
