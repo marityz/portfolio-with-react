@@ -3,7 +3,7 @@
  
  
 ## Инструкция:
-- Склонировать репозиторий: git clone https://github.com/marityz/work-with-react.git
+- Склонировать репозиторий: git clone https://marityz.github.io/portfolio-with-react/
 
 Для установки:
 - npm install

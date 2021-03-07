@@ -1,0 +1,39 @@
+.work__example {
+    border: #f0f0f0 solid 3px;
+    background-color: #222b30;
+    background-size: cover;
+}
+.work__example:hover{
+    cursor: pointer;
+}
+
+
+.work__title {
+    margin-bottom: 0px;
+}
+
+.work__text {
+    text-align: center;
+}
+.work-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-around;
+    width: 75%;
+    height: 80%;
+    margin: auto;
+}
+
+.work__link{
+    color: #2f2f2f;
+}
+
+
+.work-container__link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
