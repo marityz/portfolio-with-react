@@ -1,7 +1,7 @@
 {
   "name": "test-react",
   "version": "0.1.0",
-  "homepage": "https://marityz.github.io/work-with-react/",
+  "homepage": "https://marityz.github.io/portfolio-with-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
